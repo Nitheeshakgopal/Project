@@ -5,16 +5,14 @@ public class TotalSalary extends SalaryCalculation {
 
 
 	public static void main(String[] args) {
-		
 		TotalSalary obj=new TotalSalary();
 		obj.input();
-		 total=(obj.base+obj.hra-obj.pf-obj.deduction+obj.bonus);
-		
 		System.out.println("....Salary slip....");
 		System.out.println("Basic pay is "+obj.base);
 		System.out.println("Deduction is "+obj.deduction);
 		System.out.println("Bonus is "+obj.bonus);
 		obj.calculation();
+		total=(obj.base+obj.hra-obj.pf-obj.deduction+obj.bonus);
 		System.out.println("Total salary is "+obj.total);
 		
 		
