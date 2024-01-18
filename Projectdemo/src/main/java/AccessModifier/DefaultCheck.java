@@ -7,6 +7,7 @@ public class DefaultCheck {
 		   System.out.println(obj.a);
 		   
 		   
+		   
 
 	}
 	
