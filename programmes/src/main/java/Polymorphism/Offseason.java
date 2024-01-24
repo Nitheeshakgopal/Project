@@ -2,7 +2,7 @@ package Polymorphism;
 public class Offseason extends Onseason{
        
 	public static void main(String[] args) {
-		Onseason obj=new Offseason();
+		Onseason obj=new Offseason();//this naming upcasting
 		obj.discount(1000);
 		
 	}
