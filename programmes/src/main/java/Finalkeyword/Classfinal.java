@@ -8,4 +8,4 @@ public class Classfinal extends Classsample {
 	}
 
 }
-*// here we cannot inherit the class because the classsample is final
+*// here we cannot inherit the class ,because the classsample is final

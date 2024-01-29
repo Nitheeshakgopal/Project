@@ -1,4 +1,4 @@
-package string;
+ package string;
 
 public class Samplestringbuffer {
 	public static void  main(String[]args) {

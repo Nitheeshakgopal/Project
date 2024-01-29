@@ -5,9 +5,10 @@ import java.util.Scanner;
 public class Bankcheck {
 
 	public static void main(String[] args) {
-		Bank obj=new Bank();
-		obj.setPin(1212);
-		obj.Validity();
+		 bankchecker obj=new bankchecker();
+		obj.setPin(1200);
+		obj.getPin();
+		obj.validity(1200);
 		
 		
 
