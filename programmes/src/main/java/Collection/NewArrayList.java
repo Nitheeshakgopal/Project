@@ -19,7 +19,11 @@ public class NewArrayList {
 			System.out.println(itr.next());
 		}
 		//to remove the third element from an array list
-		System.out.println("Removed colour is... "+str.remove(2));
+		//System.out.println("Removed colour is... "+str.remove(2));
+		//remove iterator-last object 
+		itr.remove();
+		System.out.println(itr.remove());
+		System.out.println("Last object removed " + str);
 		//to search an element in an array list.
 		if(str.contains("PINK")){
 			System.out.println(" contains ");

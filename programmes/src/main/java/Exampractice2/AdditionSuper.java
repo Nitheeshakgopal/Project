@@ -1,14 +1,21 @@
 package Exampractice2;
 
 public class AdditionSuper {
-     int a,b;
+     
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		AdditionSuper obj=new AdditionSuper();
+		obj.sum(10,20);
+		obj.sum(10,20,30);
 	}
-	public int addition(int a,int b) {
+	public  void sum(int a, int b) {
 		int c=a+b;
-		return c;
+		System.out.println("The sum is "+c);
 	}
+	public void sum(int a,int b, int c) {
+		int d=a+b+c;
+		System.out.println("The sum is "+ d);
+	}
+		
+	
 
 }

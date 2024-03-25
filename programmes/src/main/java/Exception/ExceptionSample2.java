@@ -3,7 +3,13 @@ package Exception;
 public class ExceptionSample2 {
 
 	public static void main(String[] args) {
-		CheckAge(16);
+		try{CheckAge(14);
+		}
+		catch(ArithmeticException e) {
+			System.out.println(e.getMessage());
+		}
+		
+		
 
 	}
 	public static void CheckAge(int age) throws ArithmeticException{
